@@ -4,7 +4,7 @@ on:
    - cron: "0 0 * * *"
 
 jobs:
-  main:
+  resources:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -23,5 +23,5 @@ jobs:
           file-path: |
             contributions.html
             total_contribs
-          commit-msg: Update resources
+          commit-msg: Updated resources
           github-token: ${{ secrets.GIT_TOKEN }}
