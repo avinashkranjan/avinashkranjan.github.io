@@ -68,7 +68,6 @@ const Contact = () => {
             <ToastContainer />
 
             <div className="w-full lg:w-5/6 2xl:w-3/4 mt-10 md:mt-16 mx-auto flex justify-between rounded-xl">
-                {/* blurDataURL="https://i.imgur.com/owZdhjA.png" */}
                 <Image
                     unoptimized={true}
                     quality={100}

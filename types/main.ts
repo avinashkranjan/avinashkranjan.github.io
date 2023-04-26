@@ -38,6 +38,7 @@ type main = {
     heroImage: string,
     shortDesc: string,
     techStackImages: string[],
+    callUrl: string
 }
 
 type about = {

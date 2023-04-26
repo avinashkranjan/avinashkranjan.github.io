@@ -89,8 +89,12 @@ const Experience = ({
                             </li>
                         ))}
                 </ul>
-                <span className="text-sm text-gray-500 dark:text-gray-400 font-medium flex pt-2">
-                    {skills && <p>Skills:</p>}
+                <span className="flex flex-wrap text-sm  font-medium pt-2">
+                    {skills && (
+                        <p className="text-gray-500 dark:text-gray-400">
+                            Skills:
+                        </p>
+                    )}
                     {skills &&
                         skills.map((s, i) => (
                             <p key={i} className="mx-1">
