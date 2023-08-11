@@ -24,13 +24,13 @@ export default function Head() {
             />
             <meta
                 property="og:url"
-                content="https://avinashranjan.vercel.app"
+                content="https://avinashranjan.com"
             />
             <meta
                 property="og:image"
-                content="https://avinashranjan.vercel.app/portfolio.png"
+                content="https://avinashranjan.com/portfolio.png"
             />
-            <link rel="canonical" href="https://avinashranjan.vercel.app" />
+            <link rel="canonical" href="https://avinashranjan.com" />
             <meta name="author" content="Avinash Ranjan" />
             <meta name="language" content="English" />
             <meta name="twitter:card" content="summary" />
