@@ -20,7 +20,7 @@
         "eslint": "8.34.0",
         "eslint-config-next": "13.1.6",
         "fast-average-color": "^9.3.0",
-        "firebase": "^9.17.1",
+        "firebase": "^12.13.0",
         "framer-motion": "^9.0.4",
         "next": "13.1.6",
         "next-themes": "^0.2.1",
